@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>نورة سمارت</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: auto;
+            overflow-y: auto !important; /* تفعيل التمرير لأسفل */
+            background-color: #ffffff;
+        }
+        .container {
+            width: 100%;
+            max-width: 500px; /* مقاس مريح للعرض كشاشة هاتف */
+            margin: 0 auto;
+        }
+        .container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
 </head>
-<body style="margin: 0; padding: 0; background-color: #ffffff; text-align: center;">
-    <img src="canvas-artifact.png" alt="التصميم" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+<body>
+    <div class="container">
+        <img src="canvas-artifact.png" alt="التصميم">
+    </div>
 </body>
 </html>
